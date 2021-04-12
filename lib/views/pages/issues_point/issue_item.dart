@@ -3,8 +3,8 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter_unit/app/res/toly_icon.dart';
 import 'package:flutter_unit/app/utils/convert_man.dart';
-import 'package:flutter_unit/components/permanent/circle_image.dart';
-import 'package:flutter_unit/components/permanent/color_wrapper.dart';
+import 'package:flutter_unit/views/components/permanent/circle_image.dart';
+import 'package:flutter_unit/views/components/permanent/color_wrapper.dart';
 import 'package:flutter_unit/model/github/issue.dart';
 
 /// create by 张风捷特烈 on 2020/9/3
@@ -65,7 +65,7 @@ class IssueItem extends StatelessWidget {
     return Row(
       children: <Widget>[
         CircleImage(
-          image: NetworkImage(issue.user.avatar_url),
+          image: NetworkImage(issue.user.avatarUrl),
           size: 40,
           borderSize: 2,
         ),

@@ -1,7 +1,6 @@
 
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_unit/app/api/issues_api.dart';
-import 'package:flutter_unit/blocs/point/point_state.dart';
 
 
 import 'point_comment_event.dart';
@@ -14,8 +13,9 @@ import 'point_comment_state.dart';
 
 class PointCommentBloc extends Bloc<PointCommentEvent, PointCommentState> {
 
-  @override
-  PointCommentState get initialState => PointCommentInitial();
+  PointCommentBloc() : super(PointCommentInitial());
+
+
 
   @override
   Stream<PointCommentState> mapEventToState(PointCommentEvent event) async* {

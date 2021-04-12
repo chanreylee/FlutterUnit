@@ -1,12 +1,11 @@
-import 'package:flutter_unit/app/enums.dart';
+import 'package:flutter_unit/model/enums.dart';
+import 'package:flutter_unit/painter_system/gallery_factory.dart';
 
 /// create by 张风捷特烈 on 2020-03-07
 /// contact me by email 1981462002@qq.com
 /// 说明:
 
 class Convert {
-
-
   static WidgetFamily toFamily(int id) {
     switch (id) {
       case 0:
@@ -27,4 +26,12 @@ class Convert {
         return WidgetFamily.statelessWidget;
     }
   }
+
+  static Map<GalleryType, String> galleryTypeMap = {
+    GalleryType.base: "基础绘制",
+    GalleryType.fun: "趣味绘制",
+    GalleryType.particle: "粒子绘制",
+    GalleryType.anim: "动画手势",
+    GalleryType.art: "艺术画廊",
+  };
 }

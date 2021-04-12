@@ -1,29 +1,21 @@
 
 #### Flutter Unit 周边
-- 🔥 [《Flutter之旅》源码下载地址 ](https://gitee.com/toly1994328/FlutterUnit/attach_files/466731/download)
+- 🔥  [实体书 - 《Flutter之旅》源码下载地址 ](https://gitee.com/toly1994328/FlutterUnit/attach_files/466731/download)
+- 🔥  [掘金小册 -《Flutter绘制指南》](https://juejin.im/book/6844733827265331214)
 - 🔥  [Flutter环境配置](https://github.com/toly1994328/FlutterUnit/issues/22)
 - 🔥  [Flutter实用插件集录 ](https://github.com/toly1994328/FlutterUnit/issues/41)
 - 🔥  [Flutter要点集录 ](https://github.com/toly1994328/FlutterUnit/labels/point)
 
 
-
-### FlutterUnit 下载体验:
-
-[![GitHub stars](https://img.shields.io/github/stars/toly1994328/FlutterUnit)](https://github.com/toly1994328/FlutterUnit/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/toly1994328/FlutterUnit)](https://github.com/toly1994328/FlutterUnit/network)
-[![GitHub license](https://img.shields.io/github/license/toly1994328/FlutterUnit)](https://github.com/toly1994328/FlutterUnit/blob/master/LICENSE)
-
-| FlutterUnit.apk 下载  | FlutterUnit mac版 下载 | FlutterUnit win版 下载 | 
-|------|------------|------------|
-|![](http://toly1994.com/file/ewm/FlutterUnit.png)|![](http://toly1994.com/file/ewm/FlutterUnitMac.png)| ![](http://toly1994.com/file/ewm/FlutterUnitWin.png)|   
+### FlutterUnit 下载体验: 复制链接，在浏览器下载~
 
 
 | 平台类型 | 下载地址 | 项目分支地址  | 相关文章 | 
 |------|------------|------|------------|
 | Android版 | http://toly1994.com/file/FlutterUnit.apk |[flutter_unit](https://github.com/toly1994328/FlutterUnit)| [《FlutterUnit食用指南》](https://juejin.im/post/6844904147045597191)|
 | iOS版 | 暂未提供，可自己下载项目运行 |[flutter_unit](https://github.com/toly1994328/FlutterUnit)| [《FlutterUnit 食用指南》](https://juejin.im/post/6844904147045597191)|
-| MacOS版 | http://toly1994.com/file/flutter_unit_mac.zip |[flutter_unit_mac](https://github.com/toly1994328/FlutterUnit/tree/flutter_unit_mac)| [《mac版闪亮登场》](https://juejin.im/post/6844904147817332743)|
-| Windows版 |http://toly1994.com/file/FlutterUnitWin.zip  | [flutter_unit_windows](https://github.com/toly1994328/FlutterUnit/tree/flutter_unit_windows) | [《win版闪亮登场》](https://juejin.im/post/6847902222626488327)|
+| MacOS版 | http://toly1994.com/file/flutter_unit_mac.zip |[flutter_unit_desk](https://github.com/toly1994328/FlutterUnit/tree/flutter_unit_desk)| [《mac版闪亮登场》](https://juejin.im/post/6844904147817332743)|
+| Windows版 |http://toly1994.com/file/FlutterUnitWin.zip  | [flutter_unit_desk](https://github.com/toly1994328/FlutterUnit/tree/flutter_unit_desk) | [《win版闪亮登场》](https://juejin.im/post/6847902222626488327)|
 | Web版 | http://toly1994328.gitee.io/flutter_web | [ flutter_unit_web ](https://github.com/toly1994328/FlutterUnit/tree/flutter_unit_web)  | [《web版闪亮登场》](https://juejin.im/post/6859888713980182541)|
 
 ---
@@ -31,11 +23,10 @@
 > 当前Flutter 版本
 
 ```
-a1@toly ~ % flutter --version
-Flutter 1.22.0 • channel stable • https://github.com/flutter/flutter.git
-Framework • revision d408d302e2 (5 days ago) • 2020-09-29 11:49:17 -0700
-Engine • revision 5babba6c4d
-Tools • Dart 2.10.0
+Flutter 2.0.1 • channel stable • https://github.com/flutter/flutter.git
+Framework • revision c5a4b4029c (7 days ago) • 2021-03-04 09:47:48 -0800
+Engine • revision 40441def69
+Tools • Dart 2.12.0
 ```
 
 ---
@@ -43,11 +34,11 @@ Tools • Dart 2.10.0
 
 ### 一、组件的展示页面
 
-#### 1. `260+组件收录`
+#### 1. `300+组件收录`
 
 > Flutter源码中的可用的组件一共350个左右，纷繁复杂，也没有明确的分类标准
 FlutterUnit 对`大大小小，常用不常用`的组件能收的尽量收录。并`根据个人感觉进行评星 `
-`目前收录组件260个`，每个都有至少一个演示展现和代码展示。
+`目前收录组件306个`，每个都有至少一个演示展现和代码展示。
 
 | . | . | . |
 |------|------------|------------|

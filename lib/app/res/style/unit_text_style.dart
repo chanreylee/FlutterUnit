@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'unit_color.dart';
 
 ///文本样式
-class TextStyleUnit {
+class TStyleUnit {
   static const lagerTextSize = 30.0;
   static const bigTextSize = 23.0;
   static const normalTextSize = 18.0;
@@ -15,6 +15,16 @@ class TextStyleUnit {
     color: UnitColor.subLightTextColor,
     fontSize: minTextSize,
   );
+
+  static const splashShadows = TextStyle(
+      color: Colors.grey,
+      shadows: [
+        Shadow(
+            color: Colors.black,
+            blurRadius: 1,
+            offset: Offset(0.1, 0.1))
+      ],
+      fontSize: 12);
 
   static const smallTextWhite = TextStyle(
     color: UnitColor.textColorWhite,
